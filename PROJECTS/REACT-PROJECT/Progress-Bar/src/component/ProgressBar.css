@@ -1,0 +1,13 @@
+.Container{
+    width: 80vw;
+    background-color:gray;
+    height: 14px;
+    border-radius: 12px;
+}
+.progress{
+    width: 20%;
+    height: 100%;
+    background-color:royalblue;
+    border-radius: 12px;
+    transition: all 0.2s linear;
+}

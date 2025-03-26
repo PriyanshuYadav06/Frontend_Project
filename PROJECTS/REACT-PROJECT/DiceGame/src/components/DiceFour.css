@@ -1,0 +1,9 @@
+.four-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.four-container1{
+    display: flex;
+    justify-content: space-between;
+}

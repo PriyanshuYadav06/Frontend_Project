@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:50px;
+    border-radius: 10px;
+    padding:55px;
+}
+.input label{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.input input{
+    padding: 1vh;
+    width: 20vw;
+    border-radius: 5px;
+    border: 1px solid black;
+    flex-grow: 1;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.btn{
+    padding: 1vh;
+    width: 10vw;
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: blue;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow: hidden;
+    align-items: center;
+}
+.input-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    gap:15px;
+}
+.BmiInfo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.BmiInfo p{
+    color: #666;
+}
+.BmiInfo h3{
+    margin-bottom:5px;
+}

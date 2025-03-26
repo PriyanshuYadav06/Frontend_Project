@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f1f1f1;
+    flex-direction: column;
+    overflow: hidden;
+}
+.container{
+    background-color:aqua;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height:80vh;
+    width:50vw;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.formm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    gap:2vh;
+    flex-wrap: wrap;
+    padding: 2vh;
+}
+.formm input {
+    padding: 1vh;
+    width: 20vw;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: 1.2rem;
+}
+.formm label{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.formm button{
+    padding: 1vh;
+    width: 10vw;
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: blue;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow: hidden;
+    align-items: center;
+    transition: background-color 0.2s ease-in-out;
+}
+.formm button:hover{
+    background-color: #0066cc;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:1.2vh;
+    flex-wrap: wrap;
+    padding: 2vh;
+}
+.text2{
+    font-size: medium;
+    color: #666;
+}
+body{
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f1f1f1;
+    flex-direction: column;
+
+}
+.container{
+    background-color:aqua;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+    max-width: 500px;
+    flex-wrap: wrap;
+    border-radius: 10px;
+}
+.formm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    gap:2vh;
+    flex-wrap: wrap;
+}
+.formm input {
+    padding: 1vh;
+    width: 20vw;
+    border-radius: 5px;
+    border: 1px solid black;
+
+}
+.formm label{
+    font-size: 1.5rem;
+
+}
+.formm button{
+    padding: 1vh;
+    width: 10vw;
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: blue;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow: hidden;
+    align-items: center;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:1.2vh;
+    flex-wrap: wrap;
+
+}
+.text2{
+    font-size: medium;
+}
+.result-txt{
+    font-size: 1.5rem;
+
+}
+.hide{
+    display: none;
+}

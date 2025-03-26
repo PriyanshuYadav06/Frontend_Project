@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 100vh;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    padding:50px;
+    border-radius: 10px;
+    background-color: rgb(31,31,31);
+    /* min-width:600px; */
+    gap:55px;
+}
+.dice-container{
+    display: flex;
+    gap:50px;
+}
+.players{
+    display: flex;
+    justify-content: space-between;
+    color: #ff6b6b;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .4);
+    font-size: 40px;
+    width:80%;
+}
+.result{
+    color: #ff6b6b;
+    font-size:50px;
+}
+.dice{
+    height: 200px;
+    width: 200px;
+    padding: 10px;
+    background-color: rgb(132,32,32);
+    border-radius:10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    transition: transform 0.4s ease-in-out;
+}
+.dice:hover{
+    transform: rotate(180deg);
+}
+.dice3:hover{
+    transform: rotate(180deg);
+}
+.circle{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(226,231,217);
+}
+.dice1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+.dice2{
+    justify-content: space-between;
+    /* display: none; */
+}
+.dice2 .circle:nth-child(2) {
+   position: absolute;
+   right: 5px;
+   bottom:5px;
+}
+.dice4.dice > div:first-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.dice4.dice > div:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.dice4{
+    justify-content: space-between;
+    display: none;
+}
+.dice3{
+    height: 200px;
+    width: 200px;
+    padding: 10px;
+    background-color: rgb(132,32,32);
+    border-radius:10px;
+    cursor: pointer;
+    display: flex;
+    position: relative;
+    display: none;
+}
+.dice3 > div:nth-child(2) {
+    display: flex;
+    align-items: center;
+}
+.dice3 > div:nth-child(3){
+    position: absolute;
+    right: 30px;
+    bottom: 13px;
+}
+.dice6{
+    justify-content: space-between;
+    display: none;
+}
+.dice6.dice > div:first-child {
+    display: flex;
+    flex-direction: column;
+    gap:12px;
+}
+.dice6.dice > div:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    gap:12px;
+}
+.dice5{
+    display: none;
+}
+.dice5.dice > div:first-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.dice5.dice > div:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.dice5.dice > div:nth-child(3) {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+button {
+    background-color: #c0392b;
+    color: #fff;
+    font-size: 1rem;
+    padding: 0.75rem 1.25rem;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #a93226;
+  }
+
+  @media (width<616px) {
+    .container{
+       
+    }
+    .dice{
+        width:150px;
+        height: 150px;
+    }
+    .circle{
+        width:40px;
+        height:40px;
+    }
+    .players{
+        font-size:25px;
+    }
+    body{
+      background-color: rgb(31,31,31);
+    }
+  }

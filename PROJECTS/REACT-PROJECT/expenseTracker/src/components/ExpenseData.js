@@ -1,0 +1,26 @@
+export default[
+    {
+        id:crypto.randomUUID(),
+        title:'Milk',
+        category:"Grocery",
+        amount:40,
+    },
+    {
+        id:crypto.randomUUID(),
+        title:'Milk',
+        category:"Grocery",
+        amount:50,
+    },
+    {
+        id:crypto.randomUUID(),
+        title:'Milk',
+        category:"Grocery",
+        amount:60,
+    },
+    {
+        id:crypto.randomUUID(),
+        title:'Milk',
+        category:"Grocery",
+        amount:10,
+    },
+]

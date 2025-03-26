@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Nunito";
+    overflow: hidden;
+}
+.card{
+    background-color: #9D40E4;
+    display: inline-block;
+    padding: 15px;
+    width: 335px;
+    height: 404px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 30px;
+   
+}
+.bigCircle{
+    width:150px;
+    height:150px;
+    border-radius: 50%;
+    background-color:#A453E2;
+    position: relative;
+    left:109px;
+    bottom: 12px;
+}
+.smallCircle{
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    background-color:#A453E2;
+}
+.topsection{
+    position: absolute;
+    width:80%;
+    top:15px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15px;
+    margin-top: 25px;
+}
+.text{
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:0.5rem;
+    border-radius: 30px;
+    padding-top:45px;
+    padding-bottom:15px;
+    position: relative;
+    bottom:42px;
+}
+.text h2{
+    font-size: 18px;
+    font-weight: 700;
+    color: #121212;
+}
+.text p{
+    font-size: 16px;
+    font-weight: 600;
+    color: #A6A6A6;
+}
+.text span{
+    background-color: #FEB02F;
+    border-radius: 25px;
+    color:white;
+    padding:0.5rem;
+}
+.img-con{
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    position: absolute;
+    padding:7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -93px;
+}
+.img-con:hover{
+    background-color: #FEB02F;
+}
+.links{
+    margin-top: 13px;
+}
+img{
+    cursor: pointer;
+}
+.green{
+    width: 14px;
+    height: 14px;
+    background-color: rgb(128, 236, 128);
+    border-radius: 50%;
+   
+}
+
+.dot{
+    background-color: white;
+    padding:3px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    position: absolute;
+    border-radius: 50%;
+    top:-1px;
+    left: 185px;
+}

@@ -1,0 +1,36 @@
+.accordion{
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    text-align: left;
+    border: 1px solid rgb(218, 212, 212);
+    width: 80%;
+    margin-inline: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 10px;
+}
+.circle{
+    min-width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background-color:rgba(128, 128, 128, 0.348);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+.ques{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:10px;
+}
+.Con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

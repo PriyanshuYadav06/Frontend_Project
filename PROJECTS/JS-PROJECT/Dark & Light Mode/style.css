@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.content{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:5vh;
+    justify-content: center;
+
+}
+.box1,.box2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:1vh;
+}
+.box{
+    border:2px solid blue;
+    width: 80vw;
+    min-height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:2vw;
+}
+@media (width<=680px){
+    h1{
+        font-size:1.5em;
+    }
+}
+@media (width<=512px){
+    h1{
+        font-size:1em;
+    }
+    .box{
+        min-height:5vh;
+        width: 90vw;
+        font-size:0.90em;
+    }
+    label {
+        font-size: 1em;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+    }
+}
+/* Dark mode UI */
+.darkMode .label2{
+    color:black;
+}
+.darkMode  .span2{
+    color: white;
+}
+.darkMode .box{
+    background-color: #1a1a1a;
+    border:2px solid royalblue;
+   
+}
+.DarkMode .label1{
+    color: white;
+}
+.DarkMode .h1{
+    color: white;
+}
+.DARK .label2{
+    color: white;
+}
+.DARK .span2{
+    color: white;
+}

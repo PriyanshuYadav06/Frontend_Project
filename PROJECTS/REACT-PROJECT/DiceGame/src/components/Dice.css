@@ -1,0 +1,16 @@
+.MainDice{
+    height: 200px;
+    width: 200px;
+    margin: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: #ce252597;
+    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, .4));
+    transition: transform 0.4s ease-in-out;
+    cursor: pointer;
+}
+.MainDice:hover{
+    transform:rotate(180deg);
+}

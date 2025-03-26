@@ -1,0 +1,34 @@
+# Node modules (common for all projects)
+node_modules/
+
+# Build outputs (Parcel, Vite, and other bundlers)
+dist/
+.out/
+.cache/
+
+# Parcel cache
+.parcel-cache/
+
+# Vite cache
+.vite/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment variables (important for security)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Editor settings (optional)
+.vscode/
+.idea/

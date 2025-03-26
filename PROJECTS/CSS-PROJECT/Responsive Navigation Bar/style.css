@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:"Nunito";
+    font-weight: 700;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: aqua; */
+    padding: 15px;
+    padding-inline: 55px;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo p{
+   
+    font-size: 20px;
+    color: #2A3342;
+}
+.links{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width:30vw;
+}
+.links:hover{
+    cursor: pointer;
+}
+.links a{
+    font-size: 16px;
+    color: #2A3342;
+    text-decoration: none;
+}
+.name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.name img{
+    margin-right: 10px;
+}
+.hamburger{
+    display: none;
+    cursor: pointer;
+    position: relative;
+}
+.name-links{
+    display: flex;
+    /* background-color: aqua; */
+    justify-content: space-between;
+    min-width:60vw;
+}
+.cross{
+    display: none;
+    cursor: pointer;
+}
+@media (width<917px) {
+    nav{
+        padding-inline:20px;
+    }
+    .links{
+        width:40vw;
+        margin-right:115px;
+    }
+    
+}
+@media (width<888px){
+    .hamburger{
+        display: block;
+    }
+    .links{
+        flex-direction: column;
+        flex-wrap: wrap;
+        width:max-content;
+        gap:0.5rem;
+    }
+    .name-links{
+        flex-direction: column-reverse;
+        align-items:flex-end;
+        flex-wrap: wrap;
+        width:max-content;
+        position:absolute;
+        background-color: rgba(0, 255, 255, 0.133);
+        min-width: 0;
+        padding-left: 15px;
+        padding-block:25px;
+        padding-right:25px;
+        gap:1rem;
+        right: 12px;
+        top:22px;
+        display: none;
+    }
+    .open.name-links{
+        display: flex;
+    }
+     .open.hamburger .hamburgeri{
+        display:none;
+    }
+    .open.hamburger{
+        display: block;
+        cursor: pointer;
+    }
+    .open.hamburger .cross{
+        position: absolute;
+        display: block;
+        cursor: pointer;
+        right: -2px;
+        top: -8px;
+    }
+   
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,regular,500,600,700,800,900,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <div class="container">
+        <h1>Toast Popup!</h1>
+        <select name="" id="" class="Horizontal-position">
+            <option value="Left">Left</option>
+            <option value="Right">Right</option>
+        </select>
+        <select name="" id="" class="Vertical-position">
+            <option value="Top">Top</option>
+            <option value="Bottom">Bottom</option>
+        </select>
+        <select name="" id="" class="Status">
+            <option value="Normal">Normal</option>
+            <option value="Success">Success</option>
+            <option value="Error">Error</option>
+            <option value="Warning">Warning</option>
+            <option value="Info">Info</option>
+        </select>
+        <div class="duration-container">
+            <label for="duration">Duration:</label>
+            <input type="range" name="" id="" class="duration">
+        </div>
+        <input type="text" placeholder="Message" class="toast-message" value="This is a toast message">
+        <button class="Btn">Show Toast!</button>
+        <div class="toast-container"></div>
+     </div>
+    <script src="script.js"></script>
+</body>
+</html>

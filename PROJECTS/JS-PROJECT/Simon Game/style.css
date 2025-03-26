@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+}
+.game{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:20px;
+    padding: 20px;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.Level {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+.first,.second{
+    display: flex;
+    gap:20px;
+}
+.box{
+    width:150px;
+    height: 150px;
+    border-radius: 20%;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+.box:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.8);
+}
+.box1{
+    background-color: #34D399;
+}
+.box2{
+    background-color: #EF4444;
+}
+.box3{
+    background-color: #FACC15;
+}
+.box4{
+    background-color: #3B82F6;
+}
+.btn{
+    padding: 12px 30px;
+    font-size:18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    background: #34D399;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out, transform 0.2s;
+}
+.btn:hover{
+    background: #10B981;
+    transform: scale(1.05);
+}
+.overCon{
+    position: absolute;
+    width: 400px;
+    height: 220px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    border-radius: 12px;
+    flex-direction: column;
+    transform: scale(0);
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    text-align: center;
+    gap:25px;
+}
+.overCon h1 {
+    font-size: 26px;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+.btnn{
+    padding: 12px 30px;
+    font-size:18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    background: #EF4444;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out, transform 0.2s;
+}
+.btnn:hover{
+    background: #DC2626;
+    transform: scale(1.05);
+}
+.sign {
+    margin-top: 20px;
+    font-size: 16px;
+    color: white;
+    opacity: 0.8;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+    position: absolute;
+    bottom:10px;
+}

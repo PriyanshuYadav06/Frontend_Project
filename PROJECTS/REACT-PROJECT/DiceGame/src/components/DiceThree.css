@@ -1,0 +1,8 @@
+.three-container{
+    display: flex;
+    margin-inline: auto;
+    justify-content: center;
+}
+.mid-dot{
+    margin-block: auto;
+}

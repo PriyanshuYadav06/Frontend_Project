@@ -1,0 +1,32 @@
+.circle-container {
+  display: flex;
+  justify-content: space-between;
+  width:80vw;
+  margin-inline: auto;
+  position: relative;
+  top: -20px;
+  align-items: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.btns {
+  display: flex;
+  justify-content: center;
+  width: 30%;
+  margin-top: 20px;
+  align-items: center;
+}
+.btns button {
+  height: 40px;
+  padding: 10px;
+  margin: 10px 50px;
+  font-size: 20px;
+  cursor: pointer;
+  background: none;
+  background-color: #ccc;
+  border: none;
+  border-radius: 5px;
+}

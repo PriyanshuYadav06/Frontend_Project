@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   font-family: 'Montserrat';
+   background-color: #001422;
+   overflow: hidden;
+}
+.main{
+    padding:20px;
+    border-radius: 11.16px;
+    border:solid 0.74px #FFFFFF4D;
+    background-image: linear-gradient(
+        148deg,
+        rgba(255, 255, 255, 0.4) 0%,
+        rgba(255, 255, 255, 0.1) 100%
+      );
+      backdrop-filter: blur(10px);
+    
+     
+}
+.card{
+    max-width: 369px;
+    border-radius: 11.16px;
+    border:solid 0.74px #FFFFFF4D;
+    
+}
+.topSection {
+    display: flex;
+    justify-content:space-between;
+    margin-top: 4px;
+}
+.topSection img{
+    margin-right:23px;
+}
+.topSection div{
+    background-color:#f1c64435;
+    color: #f1c644b2;
+    border-radius: 5.21px;
+    padding:3px;
+    margin-left:11px;
+}
+.Title{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 14.85px;
+    margin-top:9px;
+    width: 100%;
+    margin-left:11px;
+}
+.name{
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 11.9px;
+    margin-top:9px;
+    width: 100%;
+    margin-left:11px;
+}
+.star{
+    margin-top:11px;
+    margin-left:9px;
+
+}
+.rating{
+    color: #F1C644;
+    font-weight: 400;
+    font-size: 14.88px;
+    position: relative;
+    top: -6px;
+    left: 5px;
+}
+.view{
+    color: #DBDBDB;
+    font-weight: 400;
+    font-size: 9.88px;
+    position: relative;
+    top: -8px;
+    left: 10px;
+}
+.last{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:15px;
+    padding:20px;
+    border-bottom-left-radius: 11.16px;
+    border-bottom-right-radius: 11.16px;
+    border:solid 0.74px #FFFFFF4D;
+}
+.Get{
+    background-color: transparent;
+    border: none;
+    color: #ffffffbd;
+    font-size: medium;
+    margin-left:9px;
+}
+.love:hover{
+    cursor: pointer;
+    outline: 1px solid royalblue;
+}
+@media (width<400px) {
+    .card{
+        max-width: 300px;
+    }
+    .java{
+        width: 100%;
+    }
+    .Title{
+        font-size: 12px;
+    }
+    .main{
+        padding:10px;
+    }
+    
+}

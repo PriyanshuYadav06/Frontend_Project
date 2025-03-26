@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+h1{
+    color: brown;
+}
+span{
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+span::after{
+    content:"";
+    height:38px;
+    width: 3px;
+    background-color: brown;
+    display:inline-block;
+    margin-left: 3px
+}

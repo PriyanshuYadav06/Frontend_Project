@@ -1,0 +1,22 @@
+.outerCon{
+    display:flex;
+    flex-direction: column;
+    gap:50px;
+    justify-content: center;
+    align-items: center;
+}
+.innerConOne{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+}
+.innerConTwo{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+}
+@media(width<620px){
+    .innerConOne,.innerConTwo{
+        gap: 5px;
+    }
+}

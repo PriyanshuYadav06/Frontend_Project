@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 16px;
+    text-align: center;
+    font-family: "Nunito";
+}
+select,input,button{
+    padding: 8px;
+    font: inherit;
+    cursor: pointer;
+}
+.container{
+    display: flex;
+    justify-content:center ;
+    flex-direction: column;
+    max-width: 400px;
+    margin-inline: auto;
+    gap:1rem;
+}
+button{
+    cursor: pointer;
+}
+.duration-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.duration{
+    flex-grow: 1;
+}
+.toast{
+    padding: 1em;
+    font-weight: 500;
+    background-color:green;
+    border-radius: .25rem;
+    box-shadow: 0 4px 10px #00000040;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.toast span{
+    cursor: pointer;
+}
+.toast-container{
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+    position: absolute;
+    top:1rem;
+    left: 1rem;;
+}
+.toast-container.right{
+    left:auto;
+    right:1rem;
+}
+.toast-container.bottom{
+   top:auto;
+   bottom:1rem;
+}
+.toast.success {
+    background-color: #009600;
+}
+
+.toast.error {
+    background-color: #ff0000;
+}
+
+.toast.warning {
+    background-color: #ec6b03;
+}
+
+.toast.info {
+    background-color: #4e4e4e;
+}
+
+.toast.success::before {
+    content: '✓';
+}
+
+.toast.error::before {
+    content: '✗';
+}
+
+.toast.warning::before {
+    content: '⚠';
+}
+
+.toast.info::before {
+    content: 'ⓘ';
+}

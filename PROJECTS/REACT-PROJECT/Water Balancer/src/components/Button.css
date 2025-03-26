@@ -1,0 +1,31 @@
+.Add {
+  background-color: green;
+  color: #fff;
+  border: none;
+  border-radius: 0.5rem;
+  text-transform: uppercase;
+  -webkit-user-select: none;
+  user-select: none;
+  cursor: pointer;
+}
+.Add:hover {
+  outline: 2px solid #646cff;
+}
+.Empty {
+  background-color: #fff;
+  color: red;
+  border: 2px solid red;
+  border-radius: 0.5rem;
+  text-transform: uppercase;
+  -webkit-user-select: none;
+  user-select: none;
+  cursor: pointer;
+}
+@media (width<620px) {
+  button {
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

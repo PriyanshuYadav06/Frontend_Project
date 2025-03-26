@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f0f0f0;
+    text-align: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:0.5rem;
+    flex-direction: column;
+    max-width:500px;
+}
+.box1{
+    display: flex;
+    justify-content: center;
+    gap:5rem;
+    width: 100%;
+}
+.box1 span{
+    font-size: 1.5rem;
+    width:40px;
+}
+.check{
+    display: inline-block;
+    border: 2px solid #CFBFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:0.2rem;
+    cursor: pointer;
+    width: 23.6px;
+    height: 23.6px;
+}
+.check:hover{
+    background-color: #CFBFFF;
+}
+.check:hover .fa-check{
+    display: block;
+}
+.fa-check{
+    color:white;
+    display: none;
+}
+.check.fill{
+    background-color: #9747FF;
+}
+.check.fill .fa-check{
+    display: block;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:10px;
+}
+.toggle-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    cursor: pointer;
+}
+.outerLayer{
+    width:94px;
+    height:48px;
+    border-radius:25px;
+    background-color: #E0E0E0;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding-inline:5px;
+    position: relative;
+}
+.circle{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+}
+.circle2{
+    display: none;
+}
+.outerLayer.on{
+    background-color: #9747FF;
+}
+.outerLayer.on .circle1{
+    display: none;
+}
+.outerLayer.on .circle2{
+    display:block;
+    position: absolute;
+    right:2px;
+}
+.dropdowncontainer{
+    max-width:500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-inline: auto;
+    margin-top:50px;
+}
+.drop{
+    padding: 15px;
+    cursor: pointer;
+    color: white;
+    font-size: 1.5rem;
+    background-color: #CFBFFF;
+    width: 100%;
+
+}
+.drop:hover{
+    background-color: #9747FF;
+}
+.item{
+    padding: 15px;
+    cursor: pointer;
+    color: black;
+    font-size: 1.5rem;
+    background-color: #FFFFFF;
+    display: none;
+    width: 100%;
+}
+.item:hover{
+    background-color: #9747FF;
+}
+.dropdowncontainer.down .item{
+    display: block;
+}

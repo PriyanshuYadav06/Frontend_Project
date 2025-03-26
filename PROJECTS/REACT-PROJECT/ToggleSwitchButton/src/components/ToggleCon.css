@@ -1,0 +1,21 @@
+.OFF{
+    color: white;
+}
+.OFF.toggle{
+    background-color: #cbcbcb;
+}
+.ON.toggle{
+    background-color:#4baf4f;
+}
+.toggle{
+    width: 222px;
+    height: 112px;
+    border-radius: 59px;
+    display: flex;
+    align-items: center;
+    padding-inline: 10px;
+    transition: all 0.3s;
+    padding: 10px;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+}

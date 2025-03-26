@@ -1,0 +1,10 @@
+.two-container{
+    display: flex;
+    justify-content: space-between;
+}
+.dot{
+    margin-inline:6px;
+}
+.dot-two{
+    transform: translateY(250%);
+}

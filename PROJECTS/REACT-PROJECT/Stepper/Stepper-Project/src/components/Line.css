@@ -1,0 +1,14 @@
+.Line-container{
+    width:80vw;
+    margin-inline: auto;
+    height:5px;
+    background-color: black;
+    min-width:200px;
+    overflow: hidden;
+}
+.Line{
+    width:0%;
+    background-color: green;
+    height:5px;
+    transition: width 0.5s ease-in-out;
+}

@@ -1,0 +1,27 @@
+.MAIN{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: auto;
+    max-width: 550px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px #0006;
+    background-color: #1f1f1f;
+    color: #fff;
+}
+.Player-Class{
+    display: flex;
+    justify-content: space-between;
+}
+.DiceClass{
+    display: flex;
+    gap:30px;
+}
+.InsideDiceClass{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

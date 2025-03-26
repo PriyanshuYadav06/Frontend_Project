@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+button {
+    background:linear-gradient(135deg, #4facfe, #00feba);
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+button:hover {
+    background:linear-gradient(135deg, #4facfe, #00feba);
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
+}
+
+button:active {
+    transform: scale(0.95);
+}
+nav{
+    position: absolute;
+    top: 0;
+    padding: 10px;
+    width: 100vw;
+    color: white;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background:linear-gradient(135deg, #4facfe, #00feba);
+    color: white;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    max-width: 400px;
+    width: 90%;
+    padding: 25px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+
+.container:hover {
+    transform: scale(1.02);
+}
+
+h1 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.search-container input {
+    flex: 1;
+    padding: 12px 15px;
+    border-radius: 30px;
+    border: none;
+    font-size: 16px;
+    outline: none;
+    color: #333;
+    background: #ebfffc;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #ebfffc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.icon:hover {
+    transform: scale(1.1);
+}
+
+.icon img {
+    width: 20px;
+}
+
+.main {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+}
+
+.cloud {
+    width: 80px;
+    margin-bottom: 15px;
+}
+
+.temp {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.city {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.information {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.section1 {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.section1 img {
+    width: 35px;
+}
+
+.section2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 16px;
+}
+
+.loading {
+    display: none;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.footer {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 0.5px;
+    width:100%;
+    text-align: center;
+}
