@@ -1,0 +1,71 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.Main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.title {
+  padding: 10px;
+}
+
+.Container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.ProductCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: gray;
+  padding: 10px;
+  border-radius: 16px;
+  width: 200px;
+  height: 200px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.ProductCard:hover {
+  transform: scale(1.05);
+}
+
+.ProductCard img {
+  width: 150px;
+}
+
+.Pages {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.Active {
+  background-color: blue;
+}
+
+.Pages button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
+}

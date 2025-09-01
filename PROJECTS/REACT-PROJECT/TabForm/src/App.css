@@ -1,0 +1,86 @@
+.main {
+  height: 90vh;
+  width: 90vw;
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  position: relative;
+}
+
+.tabs {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  background-color: black;
+  color: white;
+}
+
+.tabs div {
+  cursor: pointer;
+}
+
+.btn {
+  position: absolute;
+  cursor: pointer;
+  background-color: blue;
+  padding: 10px;
+  bottom: 10px;
+  right: 10px;
+  border-radius: 16px;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+  color: white;
+}
+
+.pis {
+  margin-inline: auto;
+  margin-block: auto;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 16px;
+  gap: 10px;
+}
+
+.formContainer div {
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 2px;
+}
+
+input {
+  background-color: black;
+  color: white;
+  outline: none;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+input:focus {
+  outline: 1px solid blue;
+}
+
+.formContainer div p {
+  color: red;
+}
+
+.checkCon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.formContainer p {
+  color: red;
+}
